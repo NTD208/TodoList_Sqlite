@@ -14,8 +14,8 @@
 		18020DFC2704BD4D008C3D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18020DFB2704BD4D008C3D84 /* Assets.xcassets */; };
 		18020DFF2704BD4D008C3D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18020DFD2704BD4D008C3D84 /* LaunchScreen.storyboard */; };
 		1890FD7D2704BE9800F6663E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890FD7C2704BE9700F6663E /* Todo.swift */; };
-		1890FD7F2704BF8100F6663E /* TodoList.db in Resources */ = {isa = PBXBuildFile; fileRef = 1890FD7E2704BF8100F6663E /* TodoList.db */; };
 		1890FD812704BFAC00F6663E /* DBController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890FD802704BFAC00F6663E /* DBController.swift */; };
+		18B094DA2705AC5000EE1A17 /* TodoList.db in Resources */ = {isa = PBXBuildFile; fileRef = 18B094D92705AC5000EE1A17 /* TodoList.db */; };
 		CAC497FE4DE0BD59176967EA /* Pods_TodoList_SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869B728194422E4BDABE08BA /* Pods_TodoList_SQLite.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		18020DFE2704BD4D008C3D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18020E002704BD4D008C3D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1890FD7C2704BE9700F6663E /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
-		1890FD7E2704BF8100F6663E /* TodoList.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = TodoList.db; sourceTree = "<group>"; };
 		1890FD802704BFAC00F6663E /* DBController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBController.swift; sourceTree = "<group>"; };
+		18B094D92705AC5000EE1A17 /* TodoList.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = TodoList.db; sourceTree = "<group>"; };
 		1A400087E3D9F30EBABBA307 /* Pods-TodoList_SQLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoList_SQLite.debug.xcconfig"; path = "Target Support Files/Pods-TodoList_SQLite/Pods-TodoList_SQLite.debug.xcconfig"; sourceTree = "<group>"; };
 		869B728194422E4BDABE08BA /* Pods_TodoList_SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoList_SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 				18020DF62704BD4D008C3D84 /* ViewController.swift */,
 				1890FD7C2704BE9700F6663E /* Todo.swift */,
 				1890FD802704BFAC00F6663E /* DBController.swift */,
-				1890FD7E2704BF8100F6663E /* TodoList.db */,
+				18B094D92705AC5000EE1A17 /* TodoList.db */,
 				18020DF82704BD4D008C3D84 /* Main.storyboard */,
 				18020DFB2704BD4D008C3D84 /* Assets.xcassets */,
 				18020DFD2704BD4D008C3D84 /* LaunchScreen.storyboard */,
@@ -160,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18020DFF2704BD4D008C3D84 /* LaunchScreen.storyboard in Resources */,
-				1890FD7F2704BF8100F6663E /* TodoList.db in Resources */,
+				18B094DA2705AC5000EE1A17 /* TodoList.db in Resources */,
 				18020DFC2704BD4D008C3D84 /* Assets.xcassets in Resources */,
 				18020DFA2704BD4D008C3D84 /* Main.storyboard in Resources */,
 			);

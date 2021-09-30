@@ -18,22 +18,22 @@ class Todo {
     }
     
     init(resultSet: FMResultSet) {
-        self.id = resultSet.string(forColumn: "id") ?? ""
-        self.name = resultSet.string(forColumn: "name") ?? ""
+        self.id = resultSet.string(forColumn: "Id") ?? ""
+        self.name = resultSet.string(forColumn: "Name") ?? ""
     }
     
     func insertToDB() {
-        let query = "insert into Todo (id, name) values ('\(id)', '\(name)')"
+        let query = "insert into Todo (Id, Name) values ('\(id)', '\(name)')"
         _ = DBController.shared.excuteUpdate(query: query)
     }
         
     func delete() {
-        let query = "delete from Todo where id = \(self.id)"
+        let query = "delete from Todo where Id = \(self.id)"
         _ = DBController.shared.excuteUpdate(query: query)
     }
     
     func saveUpdate() {
-        let query = "update Todo set name = \(self.name) where id = \(self.id)"
+        let query = "update Todo set Name = \(self.name) where Id = \(self.id)"
         _ = DBController.shared.excuteUpdate(query: query)
     }
 }
